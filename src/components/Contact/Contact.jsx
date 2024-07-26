@@ -1,6 +1,6 @@
 
 import { BsPersonFill } from "react-icons/bs";
-import { BsPhone } from "react-icons/bs2";
+import { HiPhone } from "react-icons/hi2";
 import css from "./Contact.module.css";
 
 export default function Contact({ data: { id, name, number }, onDelete }) {
@@ -12,7 +12,7 @@ export default function Contact({ data: { id, name, number }, onDelete }) {
           {name}
         </p>
         <p>
-          <BsPhone className={css.myIcon} size="25" />
+          <HiPhone className={css.myIcon} size="25" />
           {number}
         </p>
       </div>

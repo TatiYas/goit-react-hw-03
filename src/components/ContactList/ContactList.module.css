@@ -1,6 +1,6 @@
 .list {
-  margin: 0 auto 10px;
-  width: 500px;
+  margin: 0 auto 15px;
+  width: 400px;
   height: 1.5em;
   font-size: 20px;
   outline: none;
@@ -12,6 +12,6 @@
   }
   
   .item {
-    max-width: 500px;
+    max-width: 100px;
     list-style: none;
   }

@@ -1,17 +1,9 @@
 .list {
-  margin: 0 auto 15px;
-  width: 400px;
-  height: 1.5em;
-  font-size: 20px;
-  outline: none;
-  border-radius: 16px;
-  border: none;
-  padding: 10px;
-  box-shadow: inset 2px 2px 5px
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;  
+    box-shadow: inset 2px 2px 5px
     rgba(0, 0, 0, 0.4);
   }
-  
-  .item {
-    max-width: 200px;
-    list-style: none;
-  }
+ 

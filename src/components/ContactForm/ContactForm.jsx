@@ -2,7 +2,7 @@ import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import { nanoid } from "nanoid";
 import { useId } from "react";
-import css from "./ContactForm.module.css";
+import s from "./ContactForm.module.css";
 
 export default function ContactForm({ onAdd }) {
   const fieldId = useId();
@@ -22,24 +22,25 @@ export default function ContactForm({ onAdd }) {
       .max(9, "Too long!")
       .required("Required!"),
   });
+
   return (
     <Formik
       initialValues={{ name: "", number: "" }}
       validationSchema={UserSchema}
       onSubmit={handleSubmit}
     >
-      <Form className={css.form}>
-        <div className={css.fields}>
+      <Form className={s.form}>
+        <div className={s.fieldContainer}>
           <label htmlFor={`name-${fieldId}`}>Name</label>
-          <Field name="name" id={`name-${fieldId}`} />
-          <ErrorMessage name="name" component="span" />
+          <Field name="name" id={`name-${fieldId}`} className={s.field} />
+          <ErrorMessage name="name" component="span" className={s.error} />
         </div>
-        <div className={css.fields}>
+        <div className={s.fieldContainer}>
           <label htmlFor={`number-${fieldId}`}>Number</label>
-          <Field name="number" id={`number-${fieldId}`} />
-          <ErrorMessage name="number" component="span" />
+          <Field name="number" id={`number-${fieldId}`} className={s.field} />
+          <ErrorMessage name="number" component="span" className={s.error} />
         </div>
-        <button className={css.btn} type="submit">
+        <button className={s.btn} type="submit">
           Add contact
         </button>
       </Form>

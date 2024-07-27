@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   border: 2px; 
+  gap: 10 px;
   border-radius: 10px;
   width: 300px;
   margin: 0 auto 35px;
@@ -21,7 +22,10 @@
 }
 
 .label {
+  display: flex;
   margin-bottom: 5px;
+  flex-direction: column;
+  align-items: start;
 }
 
 .field {

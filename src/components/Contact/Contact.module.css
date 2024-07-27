@@ -1,12 +1,24 @@
 .container {
-    border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px;
+  border-radius: 10px;
+  width: 500px;
+  margin: 0 auto 35px;
+  padding: 24px;
+  background-color: greenyellow;
+  box-shadow: 0 8px 16px;
+  color: rgb(122, 142, 196);}
+
+    /*border: 1px solid black;
     border-radius: 4px;
     padding: 8px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 12px;
-  }
+  }*/
   
   .myIcon {
     vertical-align: middle;

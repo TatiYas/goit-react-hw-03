@@ -4,9 +4,9 @@
   align-items: center;
   border: 2px;
   border-radius: 10px;
-  width: 500px;
-  margin: 0 auto 35px;
-  padding: 24px;
+  width: 300px;
+  margin: 0 auto 12px;
+  padding: 14px;
   background-color: greenyellow;
   box-shadow: 0 8px 16px;
   color: rgb(122, 142, 196);
@@ -14,8 +14,8 @@
 
   
   .fields {
-    margin: 0 auto 15px;
-  width: 500px;
+    margin: 0 auto 10px;
+  width: 300px;
   height: 1.5em;
   font-size: 20px;
   outline: none;

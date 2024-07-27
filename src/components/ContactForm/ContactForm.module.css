@@ -4,7 +4,7 @@
   align-items: center;
   border: 2px;
   border-radius: 10px;
-  width: 300px;
+  width: 500px;
   margin: 0 auto 12px;
   padding: 14px;
   background-color: greenyellow;
@@ -15,7 +15,7 @@
   
   .fields {
     margin: 0 auto 10px;
-  width: 300px;
+  width: 500px;
   height: 1.5em;
   font-size: 20px;
   outline: none;

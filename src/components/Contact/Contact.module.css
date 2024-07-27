@@ -2,24 +2,22 @@
   width: 300px;
   border: 2px;
   border-radius: 10px;
-  padding: 8px;
+  padding: 24px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  ustify-content: space-between;
+  justify-content: space-between;
   gap: 12px;
   background-color: greenyellow;
   box-shadow: 0 8px 16px;
   color: rgb(122, 142, 196);
+  margin-top: 10px;
 }
 
    
   /*margin: 0 auto 15px;
   padding: 24px;*/
  
-
-  
-  
   .myIcon {
     vertical-align: middle;
     margin-right: 8px;
